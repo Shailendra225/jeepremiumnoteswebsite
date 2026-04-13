@@ -1,5 +1,3 @@
-# jeepremiumnoteswebsite
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,6 +33,8 @@
       margin: 10px;
       border-radius: 8px;
       display: inline-block;
+
+      
       width: 260px;
       box-shadow: 0 0 8px rgba(0,0,0,0.1);
     }
@@ -83,7 +83,7 @@
 
   <script>
     function payNow() {
-      window.open("https://rzp.io/l/abcd123", "_blank");
+      window.open("https://razorpay.me/@jeepremiumnoteswebsite", "_blank");
       alert("After payment, join Telegram and send screenshot to get notes.");
     }
   </script>
@@ -143,7 +143,7 @@
   <div class="telegram-box">
     <h3>📢 After Payment</h3>
     <p>Join Telegram & send payment screenshot to get notes.</p>
-    <button onclick="window.location.href='https://t.me/yourusername'">
+    <button onclick="window.location.href='https://JeeHandwrittenPremiumNotes'">
       Join Telegram
     </button>
   </div>
